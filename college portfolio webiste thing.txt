@@ -1,0 +1,114 @@
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xavier Henderson | College Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Xavier Henderson</h1>
+      <p class="subtitle">Second-Year College Student | Aspiring Food Scientist</p>
+
+      <p class="quote">
+        "From growing food in gardens to exploring a future in Food Science, I am passionate about learning how food can improve lives and strengthen communities."
+      </p>
+
+      <div class="buttons">
+        <a href="#resume" class="btn primary">View Resume</a>
+        <a href="#about" class="btn">About Me</a>
+        <a href="#experience" class="btn">Experience</a>
+        <a href="#contact" class="btn">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I am a 17-year-old second-year college student who graduated high school early and earned my associate degree. 
+      I am interested in Food Science because of my passion for cooking, gardening, and understanding how food impacts health and communities.
+    </p>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section">
+    <h2>Education</h2>
+    <ul>
+      <li>Second-Year College Student</li>
+      <li>Associate Degree Completed</li>
+      <li>Focused on Biology, Chemistry, and Nutrition</li>
+    </ul>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>Gardening</h3>
+      <p>Plant care, soil preparation, consistency, and problem-solving.</p>
+    </div>
+
+    <div class="card">
+      <h3>Retail Work</h3>
+      <p>Customer service, teamwork, communication, and inventory support.</p>
+    </div>
+
+    <div class="card">
+      <h3>Volunteer – Habitat for Humanity</h3>
+      <p>Community service, teamwork, reliability, and hands-on support.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section">
+    <h2>Skills</h2>
+    <div class="grid">
+      <span>Communication</span>
+      <span>Teamwork</span>
+      <span>Problem Solving</span>
+      <span>Time Management</span>
+      <span>Gardening</span>
+      <span>Customer Service</span>
+    </div>
+  </section>
+
+  <!-- GOALS -->
+  <section class="section">
+    <h2>Career Goals</h2>
+    <p>
+      My goal is to earn a bachelor’s degree in Food Science and pursue a career in food safety, research, or product development.
+    </p>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <p>Download my resume for a full overview of my education and experience.</p>
+    <a href="#" class="btn primary">Download Resume</a>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: yourname@email.com</p>
+    <p>Location: Maryland, USA</p>
+
+    <a href="mailto:yourname@email.com" class="btn primary">Send Email</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Xavier Henderson | Aspiring Food Scientist</p>
+  </footer>
+
+</body>
+</html>

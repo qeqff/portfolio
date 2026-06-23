@@ -1,0 +1,99 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(to right, #2c3e50, #27ae60);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+.quote {
+  margin: 20px auto;
+  max-width: 700px;
+  font-style: italic;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+  color: #2c3e50;
+}
+
+.primary {
+  background: #27ae60;
+  border: none;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* CARDS */
+.card {
+  background: #f4f4f4;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid #27ae60;
+}
+
+/* SKILLS GRID */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.grid span {
+  background: #27ae60;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2c3e50;
+  color: white;
+}
